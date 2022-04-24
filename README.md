@@ -10,7 +10,6 @@ In addition, I used the Mask RCNN sample https://github.com/matterport/Mask_RCNN
 
 # How to use
 I used Google Colab to run this project. The most important part of running the project is to check the address for Mask RCNN, dataset (gitar) images, and the JSON file in the main code. You need to download Mask RCNN project https://github.com/matterport/Mask_RCNN and upload it in your drive. Also, I upload dataset (gitar) and also Json files ( check the directory, for me Json files are in the Mask RCNN folder ) on my Google drive then I use them in my code. ( for example '/content/drive/MyDrive/Mask_RCNN' ). I did not use enough images for the training part (24 annotated images ). If you add more images you can get better results.
-![sampleimage1](https://user-images.githubusercontent.com/24444329/164971248-38baf62a-5da3-44d0-b0a5-ddeb178254c6.png)
 
-
+![sampleimage1](https://user-images.githubusercontent.com/24444329/164971286-d204f62f-415c-477e-ac34-ca6154dc6140.png)
 
