@@ -5,10 +5,10 @@ COCO dataset. I change some hyper parameters like the number of epochs and the l
 Finally, the result of training should be declare as validation accuracy, training loss and some images that shows the segmentation and detection. In addition there is a part of discussion that is regarding to difficulties and the steps for solving them.
 
 # Materials and Libraries
-At the first step, the object for training and validation should be annotated by a human. I use https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html and Polygon selector to segment the region of Gitar. The output of these annotation is a Json file. ( you can find the images and Json file in the dataset part ).
+At the first step, the object for training and validation should be annotated by a human. I use https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html and Polygon selector to segment the region of Gitar. The output of these annotation is a Json file. ( you can find the images and Json file in the dataset (gitar ) part ).
 In addition, I used the Mask RCNN sample https://github.com/matterport/Mask_RCNN as a basic code but I cahnged some parts according to what I need.
 
 # How to use
-I used Google Colab to run this project. The most important part of running the project is to check the address for Mask RCNN, dataset images, and the JSON file from annotation. I upload all of them on my Google drive then I use them in my code. ( for example '/content/drive/MyDrive/Mask_RCNN' ). I did not use enough images for the training part (24 annotated images ). If you add more images you can get better results.
+I used Google Colab to run this project. The most important part of running the project is to check the address for Mask RCNN, dataset (gitar) images, and the JSON file from annotation. I upload all of them on my Google drive then I use them in my code. ( for example '/content/drive/MyDrive/Mask_RCNN' ). I did not use enough images for the training part (24 annotated images ). If you add more images you can get better results.
 
 
